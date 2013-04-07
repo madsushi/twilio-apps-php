@@ -1,0 +1,9 @@
+Hello!
+
+This are a few of my Twilio scripts that I love.
+
+masstxt.php + masstexttwilio.php - these combine to form a useful group text messaging tool. Make a list of all of your users on the masstxt.php page with handy coloring and check boxes, and then pass the selections to masstexttwilio.php, which uses the official Twilio PHP plugin to send text messages to your selected users. Includes simple password authentication!
+
+runcommand.php - this allows me to send text messages to my server with commands (e.g. 'service nginx restart') which are then executed. Not 100% safe, so be careful with how you use this.
+
+voice.php - this allows you to call in to your Twilio phone number, and then get the number you called from repeated back to you and (optionally) texted to a cell phone. I use this for troubleshooting phone lines and figuring out which analog line is which. Very very handy.
